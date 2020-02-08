@@ -1,5 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "private": true,
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -8,20 +9,34 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^34.0.1",
+    "expo": "^36.0.0",
+    "fiery": "^0.5.0",
     "firebase": "^6.3.4",
     "lodash": "^4.17.15",
-    "react": "16.8.3",
-    "react-dom": "^16.8.6",
+    "modal-enhanced-react-native-web": "^0.2.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
     "react-firebase-hooks": "^2.1.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
     "react-native-web": "^0.11.4",
-    "react-native-webview": "^5.12.1",
+    "react-native-webview": "7.4.3",
     "socket.io-client": "^2.2.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "babel-eslint": "^10.0.3",
     "babel-preset-expo": "^6.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-flowtype": "^3.13.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "expo-cli": "^3.11.1"
   },
-  "private": true
+  "eslintConfig": {
+    "extends": "react-app"
+  }
 }
